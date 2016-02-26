@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,900)
+
+body
+    font-family: 'Lato', sans-serif
+
+
+//Fonts Mixin
+@mixin lato_lighter($font-size, $color, $line-height)
+    font-weight: 300
+    font-size: $font-size
+    line-height: $line-height
+    color: $color
+
+@mixin lato_regular($font-size, $color, $line-height)
+    font-weight: 400
+    font-size: $font-size
+    line-height: $line-height
+    color: $color
+
+@mixin lato_semibold($font-size, $color, $line-height)
+    font-weight: 700
+    font-size: $font-size
+    line-height: $line-height
+    color: $color
+
+@mixin lato_bold($font-size, $color, $line-height)
+    font-weight: 900
+    font-size: $font-size
+    line-height: $line-height
+    color: $color
