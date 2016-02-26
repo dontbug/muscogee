@@ -8,6 +8,10 @@
 
 ####Compile frontend stack
 * gulp
+ 
+####Open in Browser
+* http://localhost:3000/ - first slider
+* http://localhost:3000/slider-2.html - second slider
 
 
 
