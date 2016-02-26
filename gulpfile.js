@@ -29,23 +29,11 @@ gulp.task('js', function() {
 });
 
 
-//Jade Compiler
-gulp.task('templates', function() {
-	var YOUR_LOCALS = {};
-
-	gulp.src('app/**/*.jade')
-		.pipe(jade({
-			pretty: true
-		}))
-		.pipe(gulp.dest('app'))
-});
-
 
 //Watch
 gulp.task('watch', function() {
 	gulp.watch('app/**/*.sass',  ['sass']);
 	gulp.watch('app/**/*.html',  ['html']);
-	gulp.watch('app/**/*.jade',  ['templates']);
 	gulp.watch('app/**/*.js',    ['js']);
 	livereload.listen();
 });
@@ -59,4 +47,4 @@ gulp.task('serve', function() {
 
 
 //Default tasks
-gulp.task('default', ['templates', 'watch', 'serve', 'html', 'sass']);
+gulp.task('default', ['watch', 'serve', 'html', 'sass']);
