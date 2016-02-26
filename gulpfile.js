@@ -3,7 +3,6 @@ var gulp = require('gulp');
 	watch = require('gulp-watch');
 	gls = require('gulp-live-server');
 	livereload = require('gulp-livereload');
-	jade = require('gulp-jade');
 
 
 //Sass
