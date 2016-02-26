@@ -14,6 +14,7 @@
 * http://localhost:3000/slider-2.html - second slider
 
 
-
+*
+*
 Enjoy.
 # muscogee
